@@ -34,8 +34,8 @@ from lbutils.graphics.colours import DEVICE_WORD_ORDER, Colour
 
 
 def test_colour_white_565_swap():
-    """Test that initialising the `Colour` class with Red = 255, Green =
-    255 and Blue = 255 gives the correct RGB565 response for the byte swapped bit order.
+    """Test that initialising the `Colour` class with Red = 255, Green = 255 and
+    Blue = 255 gives the correct RGB565 response for the byte swapped bit order.
 
     Expectation
     -----------
@@ -55,8 +55,8 @@ def test_colour_white_565_swap():
 
 
 def test_colour_white_888_swap():
-    """Test that initialising the `Colour` class with Red = 255, Green =
-    255 and Blue = 255 gives the correct RGB888 response for the byte swapped bit order.
+    """Test that initialising the `Colour` class with Red = 255, Green = 255 and
+    Blue = 255 gives the correct RGB888 response for the byte swapped bit order.
 
     Expectation
     -----------
@@ -77,8 +77,8 @@ def test_colour_white_888_swap():
 
 
 def test_colour_black_565_swap():
-    """Test that initialising the `Colour` class with Red = 0, Green =
-    0 and Blue = 0 gives the correct RGB565 response for the byte swapped bit order.
+    """Test that initialising the `Colour` class with Red = 0, Green = 0 and
+    Blue = 0 gives the correct RGB565 response for the byte swapped bit order.
 
     Expectation
     -----------
@@ -98,8 +98,8 @@ def test_colour_black_565_swap():
 
 
 def test_colour_black_888_swap():
-    """Test that initialising the `Colour` class with Red = 0, Green =
-    0 and Blue = 0 gives the correct RGB888 response for the byte swapped bit order.
+    """Test that initialising the `Colour` class with Red = 0, Green = 0 and
+    Blue = 0 gives the correct RGB888 response for the byte swapped bit order.
 
     Expectation
     -----------
@@ -120,8 +120,8 @@ def test_colour_black_888_swap():
 
 
 def test_colour_red_565_swap():
-    """Test that initialising the `Colour` class with Red = 255, Green =
-    0 and Blue = 0 gives the correct RGB565 response for the byte swapped bit order.
+    """Test that initialising the `Colour` class with Red = 255, Green = 0 and
+    Blue = 0 gives the correct RGB565 response for the byte swapped bit order.
 
     Expectation
     -----------
@@ -141,8 +141,8 @@ def test_colour_red_565_swap():
 
 
 def test_colour_red_888_swap():
-    """Test that initialising the `Colour` class with Red = 255, Green =
-    0 and Blue = 0 gives the correct RGB888 response for the byte swapped bit order.
+    """Test that initialising the `Colour` class with Red = 255, Green = 0 and
+    Blue = 0 gives the correct RGB888 response for the byte swapped bit order.
 
     Expectation
     -----------
@@ -163,8 +163,8 @@ def test_colour_red_888_swap():
 
 
 def test_colour_green_565_swap():
-    """Test that initialising the `Colour` class with Red = 0, Green =
-    255 and Blue = 0 gives the correct RGB565 response for the byte swapped bit order.
+    """Test that initialising the `Colour` class with Red = 0, Green = 255 and
+    Blue = 0 gives the correct RGB565 response for the byte swapped bit order.
 
     Expectation
     -----------
@@ -184,8 +184,8 @@ def test_colour_green_565_swap():
 
 
 def test_colour_green_888_swap():
-    """Test that initialising the `Colour` class with Red = 0, Green =
-    255 and Blue = 0 gives the correct RGB888 response for the byte swapped bit order.
+    """Test that initialising the `Colour` class with Red = 0, Green = 255 and
+    Blue = 0 gives the correct RGB888 response for the byte swapped bit order.
 
     Expectation
     -----------
@@ -206,8 +206,8 @@ def test_colour_green_888_swap():
 
 
 def test_colour_blue_565_swap():
-    """Test that initialising the `Colour` class with Red = 0, Green =
-    0 and Blue = 255 gives the correct RGB565 response for the byte swapped bit order.
+    """Test that initialising the `Colour` class with Red = 0, Green = 0 and
+    Blue = 255 gives the correct RGB565 response for the byte swapped bit order.
 
     Expectation
     -----------
@@ -227,8 +227,8 @@ def test_colour_blue_565_swap():
 
 
 def test_colour_blue_888_swap():
-    """Test that initialising the `Colour` class with Red = 0, Green =
-    0 and Blue = 255 gives the correct RGB888 response for the byte swapped bit order.
+    """Test that initialising the `Colour` class with Red = 0, Green = 0 and
+    Blue = 255 gives the correct RGB888 response for the byte swapped bit order.
 
     Expectation
     -----------
@@ -249,8 +249,8 @@ def test_colour_blue_888_swap():
 
 
 def test_colour_beckett_565_swap():
-    """Test that initialising the `Colour` class with Red = 0, Green =
-    255 and Blue = 0 gives the correct RGB565 response for the byte swapped bit order.
+    """Test that initialising the `Colour` class with Red = 0, Green = 255 and
+    Blue = 0 gives the correct RGB565 response for the byte swapped bit order.
 
     Expectation
     -----------
@@ -270,8 +270,8 @@ def test_colour_beckett_565_swap():
 
 
 def test_colour_beckett_888_swap():
-    """Test that initialising the `Colour` class with Red = 0, Green =
-    255 and Blue = 0 gives the correct RGB888 response for the byte swapped bit order.
+    """Test that initialising the `Colour` class with Red = 0, Green = 255 and
+    Blue = 0 gives the correct RGB888 response for the byte swapped bit order.
 
     Expectation
     -----------

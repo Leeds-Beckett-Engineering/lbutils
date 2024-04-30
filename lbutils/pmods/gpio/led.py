@@ -319,8 +319,8 @@ class LED:
         leds: Optional[List[bool]] = None,
     ) -> None:
         """Set the state of the named LEDs in a single call, using `True` for
-        `HIGH` (or `ON`) and `False` for `LOW` (or `OFF`). This state can be set by
-        **one** of the following.
+        `HIGH` (or `ON`) and `False` for `LOW` (or `OFF`). This state can be set
+        by **one** of the following.
 
         1. Using the `List` of `bool` values in the `leds` parameter to set the
         GPIO outputs. The first value in the list will be used to set LED 0, the second
