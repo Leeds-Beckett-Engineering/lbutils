@@ -1,11 +1,25 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
-# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+##
+## Dependabot. Only check for major updates and security issues, as this repository needs careful checking
+## before any updates. Major changes usually introduce useful functionality, and so this could be allowed
+## as a change.
+##
 
 version: 2
 updates:
-  - package-ecosystem: "pip"
+
+# Check for changes to GitHub actions on a monthly basis. This should keep the repo
+# updated, without being too annoying
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
+
+# Ignore updates to Python pip dependencies. This will turn off all except security
+# alerts
+  - package-ecosystem: "pip"
+    directory: "/" 
+    schedule:
+      interval: "monthly"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor", "version-update:semver-patch"]
